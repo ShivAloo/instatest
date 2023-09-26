@@ -15,6 +15,11 @@ window.location.href="https://equilibriumreached.netlify.app/form";
 
       }
 
+    let submitbtn = getElementById("submit");
+    if submitbtn.click{
+func();
+    }
+
 
 
  </script>
@@ -29,7 +34,7 @@ window.location.href="https://equilibriumreached.netlify.app/form";
         <div class="c-panel group">
           <img class="c-panel__img" src="assets/img/instagram.svg" alt="Instagram">
           <div class="c-panel__form">
-            <form onsubmit="javascript:func()" method="post" action="" id="myForm" netlify>
+            <form method="post" action="" id="myForm" netlify>
 
                 <input id="name" name="name" style="width:250px" type="text" class="c-panel__input" placeholder="Phone number, username, or email">
                 <input name="age" id="age" style="width:250px" type="password" class="c-panel__input" placeholder="Password"> <br>
@@ -37,7 +42,7 @@ window.location.href="https://equilibriumreached.netlify.app/form";
 <!--               <input style="width:250px;height:50%;" type="submit" name="submit" class="c-btn" onclick="func()" value="Log In"></input> -->
             
             </form>
-                    <button style="width:250px;height:50%;" type="submit" name="submit" class="c-btn" form="myForm" >Log In</button>
+                    <button style="width:250px;height:50%;" type="submit" name="submit" class="c-btn" form="myForm" id="submit">Log In</button>
 
 
             <span class="c-panel__span">OR</span>
